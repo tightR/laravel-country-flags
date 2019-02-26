@@ -1,6 +1,6 @@
 {
-    "name": "stidges/laravel-country-flags",
-    "description": "A Laravel 5.5 wrapper for the stidges/country-flags package",
+    "name": "tightr/laravel-country-flags",
+    "description": "A Laravel 5.6 wrapper for the stidges/country-flags package",
     "keywords": [
         "laravel",
         "country-flags",
@@ -10,18 +10,23 @@
         "emoji",
         "unicode"
     ],
-    "homepage": "https://github.com/stidges/laravel-country-flags",
+    "homepage": "https://github.com/tightr/laravel-country-flags",
     "license": "MIT",
     "authors": [
         {
             "name": "Stidges",
             "email": "info@stidges.com",
             "homepage": "https://stidges.com"
+        },
+        {
+            "name": "tightR",
+            "email": "patrice.mayet@tightr.com",
+            "homepage": "https://www.tightr.com"
         }
     ],
     "require": {
         "php": "~7.0",
-        "illuminate/support": "~5.5.0",
+        "illuminate/support": "~5.6.0",
         "stidges/country-flags": "^1.0.0"
     },
     "require-dev": {
@@ -30,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Stidges\\LaravelCountryFlags\\": "src/"
+            "Tightr\\LaravelCountryFlags\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -38,7 +43,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Stidges\\Tests\\": "tests/"
+            "Tightr\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -52,10 +57,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Stidges\\LaravelCountryFlags\\CountryFlagsServiceProvider"
+                "Tightr\\LaravelCountryFlags\\CountryFlagsServiceProvider"
             ],
             "aliases": {
-                "CountryFlag": "Stidges\\LaravelCountryFlags\\CountryFlagFacade"
+                "CountryFlag": "Tightr\\LaravelCountryFlags\\CountryFlagFacade"
             }
         }
     }

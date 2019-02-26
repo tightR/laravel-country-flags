@@ -1,6 +1,6 @@
 <?php
 
-namespace Stidges\LaravelCountryFlags;
+namespace Tightr\LaravelCountryFlags;
 
 use Illuminate\Support\Facades\Facade;
 

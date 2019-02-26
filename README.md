@@ -6,14 +6,14 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A Laravel 5.5 wrapper for the [stidges/country-flags](https://github.com/stidges/country-flags) package.
+A Laravel 5.6 wrapper for the [stidges/country-flags](https://github.com/stidges/country-flags) package.
 
 ## Installation
 
 You can install the package via Composer:
 
 ``` bash
-$ composer require stidges/laravel-country-flags
+$ composer require tightr/laravel-country-flags
 ```
 
 The Laravel facade and service provider are registered through auto-discovery, so you can start using it out of the box!
@@ -39,7 +39,7 @@ echo country_flag('NL'); // "🇳🇱"
 If you would like to make country codes available under a custom aliases, you can update the configuration file. First you should publish it:
 
 ``` bash
-$ php artisan vendor:publish --provider="Stidges\LaravelCountryFlags\CountryFlagsServiceProvider"
+$ php artisan vendor:publish --provider="Tightr\LaravelCountryFlags\CountryFlagsServiceProvider"
 ```
 
 This will make the configuration file available under `config/country-flags.php`. You can update the `'aliases'` section to add your custom aliases:

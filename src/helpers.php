@@ -1,6 +1,6 @@
 <?php
 
-use Stidges\LaravelCountryFlags\CountryFlagFacade as CountryFlag;
+use Tightr\LaravelCountryFlags\CountryFlagFacade as CountryFlag;
 
 if (! function_exists('country_flag')) {
     /**

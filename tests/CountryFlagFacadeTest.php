@@ -1,6 +1,6 @@
 <?php
 
-namespace Stidges\Tests;
+namespace Tightr\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Stidges\CountryFlags\CountryFlag;

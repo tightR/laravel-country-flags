@@ -1,6 +1,6 @@
 <?php
 
-namespace Stidges\LaravelCountryFlags;
+namespace Tightr\LaravelCountryFlags;
 
 use Stidges\CountryFlags\CountryFlag;
 use Illuminate\Support\ServiceProvider;
